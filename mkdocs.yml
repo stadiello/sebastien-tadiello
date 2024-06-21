@@ -1,0 +1,59 @@
+site_name: ML Engineer's Blog
+site_description: |
+  Portfolio and blog about Artificial Intelligence and Machine Learning
+site_author: Sebastien Tadiello
+# site_url: https://Blog.com
+edit_uri: ""
+copyright: Copyright © 2024 Sebastien Tadiello
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+  palette:
+    scheme: slate
+    primary: black
+    accent: light green
+    # '00ff00' '#229954'
+
+extra:
+  social:
+    # - icon: /images/huggingface.svg
+    #   link: https://huggingface.co/sebDtSci
+    - icon: fontawesome/brands/square-x-twitter
+      link: https://twitter.com/SbastienT10
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/sebastien-t-ababa2128/
+    - icon: fontawesome/brands/github
+      link: https://github.com/sebDtSci
+    - icon: fontawesome/brands/google-scholar
+      link: https://scholar.google.com/citations?view_op=list_works&hl=fr&user=EkjvvMIAAAAJ
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - blog
+  # - meta
+
+docs_dir: docs
+
+nav:
+  - Home: index.md
+  # - Portfolio:
+  #     - Open Source Projects: portfolio/open-source.md
+  #     - Past Contributions: portfolio/open-source-history.md
+  #     - About me:
+  #         - Biography: portfolio/biography.md
+  - Blog:
+      - blog/index.md
