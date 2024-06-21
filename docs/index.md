@@ -11,10 +11,10 @@
 
 ## About me:
 
-<img class="logo" src="blog/posts/assets/pp.jpg" alt="Me" width="150px"/>
+<img class="logo" src="images/pp.jpg" alt="Me" width="150px"/>
 
 <div style="text-align: justify">
-I'm an artificial intelligence engineer with expertise in MLOps. My work encompasses the design of machine learning algorithms and natural language processing (NLP) in a variety of contexts, from industry to academic research. Specialized in Artificial Intelligence, I also hold a Master's degree in Cognitive Sciences and more specifically in Cognitive Dynamics. 
+I'm an Artificial Intelligence Engineer with expertise in MLOps. My work encompasses the design of machine learning algorithms and natural language processing (NLP) in a variety of contexts, from industry to academic research. Specialized in Artificial Intelligence, I also hold a Master's degree in Cognitive Sciences and more specifically in Cognitive Dynamics. 
 </div>
 
 ## <p align="center"> I worked for </p>
@@ -24,20 +24,16 @@ I'm an artificial intelligence engineer with expertise in MLOps. My work encompa
 <table>
   <tr>
     <td align="center">
-      <img class="logo" src="blog/posts/assets/download.webp" alt="Pacte Novation" width="150px"/>
-      <br>Pacte Novation
+      <img class="logo" src="images/download.webp" alt="Pacte Novation" width="150px"/>
     </td>
     <td align="center">
-      <img class="logo" src="blog/posts/assets/téléchargement.webp" alt="SCOR" width="150px"/>
-      <br>SCOR
+      <img class="logo" src="images/téléchargement.webp" alt="SCOR" width="150px"/>
     </td>
     <td align="center">
-      <img class="logo" src="blog/posts/assets/download.jfif" alt="Sorbonne Université" width="150px"/>
-      <br>Sorbonne Université
+      <img class="logo" src="images/download.jfif" alt="Sorbonne Université" width="150px"/>
     </td>
     <td align="center">
-      <img class="logo" src="blog/posts/assets/incia-300x270.jpg" alt="INCIA" width="150px"/>
-      <br>INCIA
+      <img class="logo" src="images/incia-300x270.jpg" alt="INCIA" width="150px"/>
     </td>
   </tr>
 </table>
