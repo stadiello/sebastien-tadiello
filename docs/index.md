@@ -1,11 +1,3 @@
-<!-- ---
-template: home.html
-title: Home
---- -->
-# Welcome to MkDocs
-
-## J'ai travaillé pour <td align="center">
-
 <style>
   .logo {
     width: 150px;
@@ -14,6 +6,20 @@ title: Home
     object-fit: cover;
   }
 </style>
+
+# Welcome the ML Engineer's Blog
+
+## About me:
+
+<img class="logo" src="blog/posts/assets/pp.jpg" alt="Me" width="150px"/>
+
+<div style="text-align: justify">
+I'm an artificial intelligence engineer with expertise in MLOps. My work encompasses the design of machine learning algorithms and natural language processing (NLP) in a variety of contexts, from industry to academic research. Specialized in Artificial Intelligence, I also hold a Master's degree in Cognitive Sciences and more specifically in Cognitive Dynamics. 
+</div>
+
+## <p align="center"> I worked for </p>
+
+
 
 <table>
   <tr>
@@ -35,6 +41,7 @@ title: Home
     </td>
   </tr>
 </table>
+
 
 <!-- For full documentation visit [mkdocs.org](https://www.mkdocs.org). -->
 
