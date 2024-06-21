@@ -1,6 +1,10 @@
 ---
 title: "Sécurité de vos codes"
 date: 2024-06-21
+author: "Sebastien Tadiello"
+description: >
+    Setup Bandit with GitHub Actions
+categories: ["DevOps", "Python", "Security"]
 ---
 # Sécurité de vos codes
 

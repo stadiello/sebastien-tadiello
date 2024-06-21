@@ -2,7 +2,6 @@ site_name: ML Engineer's Blog
 site_description: |
   Portfolio and blog about Artificial Intelligence and Machine Learning
 site_author: Sebastien Tadiello
-# site_url: https://Blog.com
 edit_uri: ""
 copyright: Copyright © 2024 Sebastien Tadiello
 
