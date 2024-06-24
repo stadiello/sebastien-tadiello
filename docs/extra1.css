@@ -1,0 +1,25 @@
+/* extra.css */
+
+.justify {
+    text-align: justify;
+}
+
+.dic_titre {
+    position: relative;
+    color: #FBFCFC;
+    text-align: center;
+    padding: 50px 0;
+    background-image: url("images/unsplash_yQGrZXeyAU8_bibliothèque.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.dic_titre::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+}

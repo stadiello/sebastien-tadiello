@@ -2,7 +2,7 @@
   .logo {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 15%;
     object-fit: cover;
   }
 </style>

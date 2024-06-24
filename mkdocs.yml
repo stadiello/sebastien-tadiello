@@ -30,6 +30,8 @@ extra:
     - icon: fontawesome/brands/google-scholar
       link: https://scholar.google.com/citations?view_op=list_works&hl=fr&user=EkjvvMIAAAAJ
 
+extra_css:
+    - 'extra1.css'
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -39,6 +41,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - admonition
+  - attr_list
 
 plugins:
   - search
