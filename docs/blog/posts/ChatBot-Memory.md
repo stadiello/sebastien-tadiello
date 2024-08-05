@@ -145,3 +145,5 @@ def memory_counter(conv_hist: list) -> int:
 ## Conclusion
 
 Ce code établit un cadre efficace pour la gestion de la mémoire dans un chatbot, en utilisant des techniques de compression pour maintenir un contexte pertinent et en améliorant la performance globale du système. L'utilisation de modèles de résumé comme BART assure que même lorsque la mémoire est compressée, le contexte essentiel est préservé.
+
+[Code sur GitHub](https://github.com/sebDtSci/ShortTerm-memory)
