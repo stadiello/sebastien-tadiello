@@ -32,6 +32,9 @@ extra:
 
 extra_css:
     - 'extra1.css'
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -43,6 +46,7 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
   - attr_list
+  - pymdownx.arithmatex
 
 plugins:
   - search
