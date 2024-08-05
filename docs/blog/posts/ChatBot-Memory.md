@@ -7,7 +7,7 @@ description: >
 categories: ["LLM", "Python", "Chatbot","Artificial Intelligence","Mathematics","NLP","Machine Learning","Memory"]
 ---
 
-# Introduction
+# ChatBot Memory
 
 Nous présentons ici une approche pour la gestion de la mémoire à court terme dans les chatbots, en utilisant une combinaison de techniques de stockage et de résumé automatique pour optimiser le contexte conversationnel. La méthode introduite repose sur une structure de mémoire dynamique qui limite la taille des données tout en préservant les informations essentielles à travers des résumés intelligents. Cette approche permet non seulement d'améliorer la fluidité des interactions mais aussi d'assurer une continuité contextuelle lors de longues sessions de dialogue. En outre, l'utilisation de techniques asynchrones garantit que les opérations de gestion de la mémoire n'interfèrent pas avec la réactivité du chatbot.
 
