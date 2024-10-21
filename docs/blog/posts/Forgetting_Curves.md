@@ -5,6 +5,7 @@ author: "Sebastien Tadiello"
 description: >
     Setup a memory to your chatbot
 categories: ["Python","Artificial Intelligence","Mathematics","Machine Learning","Memory"]
+draft: true
 ---
 
 De par mes ettudes en Science Cognitives, j'ai eu l'occasion de travailler sur la modélisation des fonctions cognitives. Aujourd'hui c'est ce que je vous propose dans cette article, modélisé la courbe de l'oubli!
