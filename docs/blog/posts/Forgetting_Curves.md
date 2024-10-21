@@ -3,7 +3,7 @@ title: "Modélisation des Forgetting Curves avec des Réseaux Neuronaux Simples"
 date: 2024-10-21
 author: "Sebastien Tadiello"
 description: >
-    Setup a memory to your chatbot
+    Modélisation des Forgetting Curves
 categories: ["Python","Artificial Intelligence","Mathematics","Machine Learning","Memory"]
 draft: true
 ---
