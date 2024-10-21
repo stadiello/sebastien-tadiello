@@ -56,9 +56,8 @@ Mutation : Pour maintenir la diversité génétique, chaque individu a une petit
 
 ```C++
 for (int &individual : population) {
-        if (rand() % 100 < 5) { // 5% de chance de mutation
-            individual += rand() % 10 - 5;
-        }
+    if (rand() % 100 < 5) { // 5% de chance de mutation
+        individual += rand() % 10 - 5;
     }
-}	
+}
 ```
