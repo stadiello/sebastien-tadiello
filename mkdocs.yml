@@ -53,6 +53,7 @@ plugins:
   - search
   - blog
 
+  - awesome-pages
   - git-revision-date
   # - mkdocs-minify-plugin
   # - meta
