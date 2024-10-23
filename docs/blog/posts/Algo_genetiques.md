@@ -83,6 +83,7 @@ Cependant, cette rapidité peut aussi être un inconvénient car elle risque de 
 Dans notre exemple, la descente de gradient pourrait trouver le maximum beaucoup plus rapidement, mais l'algorithme génétique est plus robuste face aux irrégularités de la fonction et peut offrir de meilleures solutions si la fonction est complexe ou non convexe.
 
 Lors de l'exécution des deux algorithmes sur la fonction $f(x) = x^2$, nous avons obtenu les résultats suivants :
+
 - **Algorithme Génétique** : Convergence vers une valeur de **121** avec une fitness de **14641** après plusieurs générations.
 - **Descente de Gradient** : Convergence vers une valeur de **120** avec une fitness de **14400**.
 
