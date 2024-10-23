@@ -54,7 +54,7 @@ plugins:
   - blog
 
   - awesome-pages
-  - git-revision-date
+  - git-revision-date-localized
   # - mkdocs-minify-plugin
   # - meta
 

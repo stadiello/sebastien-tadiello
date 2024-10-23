@@ -4,5 +4,4 @@ pymdown-extensions
 mkdocs-blog-plugin
 mkdocs-meta-descriptions-plugin 
 mkdocs-git-revision-date-localized-plugin
-git-revision-date
 mkdocs-awesome-pages-plugin
