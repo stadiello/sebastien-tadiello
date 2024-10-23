@@ -47,10 +47,14 @@ markdown_extensions:
   - admonition
   - attr_list
   - pymdownx.arithmatex
+  - pymdownx.details
 
 plugins:
   - search
   - blog
+
+  - mkdocs-git-revision-date-plugin
+  # - mkdocs-minify-plugin
   # - meta
 
 docs_dir: docs

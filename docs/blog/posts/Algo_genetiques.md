@@ -19,6 +19,7 @@ Dans cet article j'introduis un exemple très simple en C++, où nous essayons d
 Donc ici notre but est de trouver l'individu qui maximise la fonction $f(x) = x^2$.
 
 Juste avant cela je veux clarifier les conditions nécessaires pour appliquer un algorithme génétique : 
+
 - une fonction de fitness clairement définie (permet de comparer les individus entre eux), 
 - un espace de recherche vaste ou non linéaire, 
 - une absence de dérivabilité de la fonction (pas un point bloquant en soit mais c'est là quelles sont le plus utile!), 
