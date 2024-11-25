@@ -5,7 +5,7 @@ author: "Sebastien Tadiello"
 description: >
     Exposer les concepts de bases de l'algorithmes génétiques
 categories: ["C++","Optimisation","Mathematics","Machine Learning"]
-# draft: true
+draft: true
 ---
 
 # Introduction aux Algorithmes Génétiques
