@@ -17,7 +17,9 @@ Dans cette section, nous formalisons mathématiquement la gestion de la mémoire
 
 ## Structure de la Mémoire de Conversation
 
-La mémoire de conversation peut être définie comme une liste ordonnée de paires $(u_i, d_i)$, où $u_i$ représente l'entrée utilisateur et $d_i$ la réponse du bot pour le $i$-ième échange. Cette liste est notée $\mathcal{C}$ :
+La mémoire de conversation peut être définie comme une liste ordonnée de paires $(u_i, d_i)$, où $u_i$ représente l'entrée utilisateur et $d_i$ la réponse du bot pour le $i$-ième échange. Cette liste est notée
+$C$
+$\mathcal{C}$ :
 
 $$
 \mathcal{C} = [(u_1, d_1), (u_2, d_2), \ldots, (u_n, d_n)]
