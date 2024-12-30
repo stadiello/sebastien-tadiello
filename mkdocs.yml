@@ -69,3 +69,5 @@ nav:
   #         - Biography: portfolio/biography.md
   - Blog:
       - blog/index.md
+  - Projets:
+      - projets/index.md
