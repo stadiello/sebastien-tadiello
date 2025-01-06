@@ -48,6 +48,9 @@ My [CV](https://github.com/sebDtSci/sebDtSci/blob/main/cv2.pdf)
 <table>
   <tr>
     <td align="center">
+      <img class="logo" src="images/bnp.jpeg" alt="BNP" width="150px"/>
+    </td>
+    <td align="center">
       <img class="logo" src="images/download.webp" alt="Pacte Novation" width="150px"/>
     </td>
     <td align="center">
