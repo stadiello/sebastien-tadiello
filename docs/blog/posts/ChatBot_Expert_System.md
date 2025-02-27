@@ -50,7 +50,7 @@ We will describe a possible method of integrating business decision processes wi
 ## Decision process modeling
 The decision process in a BRMS system can be modeled as a set of logical rules and conditional actions, often represented by a directed graph or decision tree. This mathematical model can be used to formalize the various stages in the decision-making process, based on inputs (data supplied by the user) and defined business rules.
 
-Consider a set of rules $ R = \{r_1, r_2, \dots, r_n\} $, where each rule $r_i$ can be represented by a logical implication of the form :
+Consider a set of rules $R = \{r_1, r_2, \dots, r_n\}$, where each rule $r_i$ can be represented by a logical implication of the form :
 
 $$
 r_i: \text{If } C_i \rightarrow A_i
@@ -58,7 +58,7 @@ $$
 
 where $ C_i $ is a set of conditions (premises) and $ A_i $ is an action or decision to be taken if the conditions are met.
 
-The decision process can be described by an algorithm that sequentially evaluates each rule in order of priority $ P(r_1) > P(r_2) > \dots > P(r_n) $. For a given input $ x $, the decision process determines the rule $ r_i $ such that the conditions $ C_i $ are satisfied, and applies the action $ A_i $.
+The decision process can be described by an algorithm that sequentially evaluates each rule in order of priority $P(r_1) > P(r_2) > \dots > P(r_n)$. For a given input $x$, the decision process determines the rule $r_i$ such that the conditions $C_i$ are satisfied, and applies the action $A_i$.
 
 Let's formulate this mathematically:
 
@@ -66,17 +66,17 @@ $$
 \text{Find } r_i \text{ such that } x \models C_i \text{ and apply } A_i
 $$
 
-where $ x \models C_i $ means that $ x $ satisfies the conditions $ C_i $.
+where $x \models C_i$ means that $x$ satisfies the conditions $C_i$.
 
-If several rules $ r_i $ and $ r_j $ are satisfied simultaneously (i.e. $ x \models C_i $ and $ x \models C_j $), then the order of priority $ P $ determines which action is chosen. This can be expressed as :
+If several rules $r_i$ and $r_j$ are satisfied simultaneously (i.e. $x \models C_i$ and $x \models C_j$), then the order of priority $P$ determines which action is chosen. This can be expressed as :
 
 $$
 A = A_k \text{ where } k = \arg\max_{i}(P(r_i) \text{ such that } x \models C_i)
 $$
 
 This model can be extended by incorporating probabilities associated with each rule, to handle scenarios where the rules are not strictly deterministic. 
-
 Finally, for integration with a wide language model (LLM), these rules can be used to filter or adjust LLM output, ensuring that any response generated conforms to predefined business rules.
+
 
 ## Decision process integration modeling
 
@@ -84,27 +84,27 @@ Once the decision process has been modeled, we can integrate it into a chatbot.
 
 ### Information extraction
 
-First, the model extracts the relevant information from the user input text $ x $. Suppose the input is of the form: *"Manon's insurance, she's 34 and lives in Paris ”*. The aim is to extract the specific information, i.e. surname $ n $, first name $ p $, age $ a $, and address $ d $. This process can be modeled by a function $ f_{ext} $ such that :
+First, the model extracts the relevant information from the user input text $x$. Suppose the input is of the form: *"Manon's insurance, she's 34 and lives in Paris ”*. The aim is to extract the specific information, i.e. surname $n$, first name $p$, age $a$, and address $d$. This process can be modeled by a function $f_{ext}$ such that :
 
 $$
 (n, p, a, d) = f_{ext}(x)
 $$
 
-where $ f_{ext} $ is an entity extraction function.
+where $f_{ext}$ is an entity extraction function.
 
 ### Building the decision payload
 
-Once the information has been extracted, it is used to build a *payload* that will be sent to a BRMS system. The payload is a data structure represented mathematically by a vector $ \mathbf{v} $ :
+Once the information has been extracted, it is used to build a *payload* that will be sent to a BRMS system. The payload is a data structure represented mathematically by a vector $\mathbf{v}$ :
 
 $$
 \mathbf{v} = (n, p, a, d, \text{ID}, \text{Amount})
 $$
 
-where $ \text{ID} $ is a relevant identifier and $ \text{Amount} $ is an initial value.
+where $\text{ID}$ is a relevant identifier and $\text{Amount}$ is an initial value.
 
 ### Business rule evaluation
+The vector $\mathbf{v}$ is sent to a rules engine $R$, represented by a function $f_{BRMS}$ :
 
-The vector $ \mathbf{v} $ is sent to a rules engine $ R $, represented by a function $ f_{BRMS} $ :
 
 $$
 \text{Decision} = f_{BRMS}(\mathbf{v})
@@ -230,5 +230,7 @@ This demo is in french :
 
 
 All the code is available on Github:
+
 - [BRMS part](https://github.com/sebDtSci/droolsLLM)
+
 - [Chatbot part](https://github.com/sebDtSci/ChatBotBRMS)

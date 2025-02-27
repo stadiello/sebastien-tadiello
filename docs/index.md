@@ -6,9 +6,9 @@
     object-fit: cover;
   }
   .pp {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
     object-fit: cover;
   }
 </style>
