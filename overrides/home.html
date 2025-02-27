@@ -1,0 +1,7 @@
+{% for article in articles %}
+  <div class="article">
+    <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
+    <p>{{ article.summary }}</p>
+  </div>
+  <hr>  <!-- Séparateur entre chaque article -->
+{% endfor %}

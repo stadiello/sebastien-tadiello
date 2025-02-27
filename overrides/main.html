@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Blog</h1>
+
+<p>Bienvenue sur mon blog technique. Voici les derniers articles :</p>
+
+{% for page in nav.pages %}
+  {% if page.url.startswith("blog/posts/") %}
+    <div class="article">
+      <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+      <p>{{ page.meta.description if page.meta.description else '' }}</p>
+    </div>
+    <hr>  <!-- Séparateur entre les articles -->
+  {% endif %}
+{% endfor %}
+
+{% endblock %}

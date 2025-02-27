@@ -7,6 +7,7 @@ copyright: Copyright © 2024 Sebastien Tadiello
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - content.code.copy
     - content.code.select
@@ -19,10 +20,10 @@ theme:
 
 extra:
   social:
-    # - icon: /images/huggingface.svg
+    # - icon: hf
     #   link: https://huggingface.co/sebDtSci
-    - icon: fontawesome/brands/square-x-twitter
-      link: https://twitter.com/SbastienT10
+    # - icon: fontawesome/brands/square-x-twitter
+    #   link: https://twitter.com/SbastienT10
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/sebastien-t-ababa2128/
     - icon: fontawesome/brands/github

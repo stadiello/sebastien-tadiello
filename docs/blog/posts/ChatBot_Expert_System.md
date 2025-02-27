@@ -56,7 +56,7 @@ $$
 r_i: \text{If } C_i \rightarrow A_i
 $$
 
-where $ C_i $ is a set of conditions (premises) and $ A_i $ is an action or decision to be taken if the conditions are met.
+where $C_i$ is a set of conditions (premises) and $A_i$ is an action or decision to be taken if the conditions are met.
 
 The decision process can be described by an algorithm that sequentially evaluates each rule in order of priority $P(r_1) > P(r_2) > \dots > P(r_n)$. For a given input $x$, the decision process determines the rule $r_i$ such that the conditions $C_i$ are satisfied, and applies the action $A_i$.
 
