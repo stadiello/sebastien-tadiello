@@ -7,7 +7,7 @@ copyright: Copyright © 2024 Sebastien Tadiello
 
 theme:
   name: material
-  custom_dir: overrides
+  # custom_dir: overrides
   features:
     - content.code.copy
     - content.code.select
