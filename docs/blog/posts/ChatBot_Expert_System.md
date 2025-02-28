@@ -7,8 +7,9 @@ description: >
 categories: ["BRMS","LLM","Python","Artificial Intelligence","Chatbot","Machine Learning","Expert System"]
 draft: false
 ---
+# LLM integration with BRMS (Business Rule Management Systems)
 
-# Introduction
+## Introduction
 
 - LLMs (Large Language Models) have revolutionized natural language processing (NLP).
     - Understanding complex structures
@@ -16,7 +17,7 @@ draft: false
 - BRMS (Business Rule Management Systems) tools for managing complex business rules. 
     - Critical systems
 
-## But
+### But
 - LLMs are excellent at understanding and generating text, but lack the rigor to respect strict business rules (Hallucination).
 
 	- Case in point: Air Canada refund problem caused by poorly integrated chatbot.
@@ -25,7 +26,7 @@ draft: false
 
 - BRMS too limited for interaction 
 
-## Benefits of BRMS-LLM integration
+### Benefits of BRMS-LLM integration
 
 -  Increased compliance: LLM responses aligned with internal policies.
 
@@ -35,7 +36,7 @@ draft: false
 
 - Clarification of decision-making processes
 
-# Architecture
+## Architecture
 
 ![Architecture](assets/architecture.png)
 As you can see from the image above, the chatbot uses LLM to generate responses, but for one specific case, it uses BRMS to provide an expert answer.
@@ -43,11 +44,11 @@ As you can see from the image above, the chatbot uses LLM to generate responses,
 ![Achi_code](assets/archi2.png)
 The architecture works like an agent, using the BRSM as a tool to make a decision in a specific case. It is a kind of artificial intelligence agent that uses function calls.
 
-# Integration workflow
+## Integration workflow
 
 We will describe a possible method of integrating business decision processes within a chatbot using a BRMS.
 
-## Decision process modeling
+### Decision process modeling
 The decision process in a BRMS system can be modeled as a set of logical rules and conditional actions, often represented by a directed graph or decision tree. This mathematical model can be used to formalize the various stages in the decision-making process, based on inputs (data supplied by the user) and defined business rules.
 
 Consider a set of rules $R = \{r_1, r_2, \dots, r_n\}$, where each rule $r_i$ can be represented by a logical implication of the form :
@@ -78,11 +79,11 @@ This model can be extended by incorporating probabilities associated with each r
 Finally, for integration with a wide language model (LLM), these rules can be used to filter or adjust LLM output, ensuring that any response generated conforms to predefined business rules.
 
 
-## Decision process integration modeling
+### Decision process integration modeling
 
 Once the decision process has been modeled, we can integrate it into a chatbot.
 
-### Information extraction
+#### Information extraction
 
 First, the model extracts the relevant information from the user input text $x$. Suppose the input is of the form: *"Manon's insurance, she's 34 and lives in Paris ”*. The aim is to extract the specific information, i.e. surname $n$, first name $p$, age $a$, and address $d$. This process can be modeled by a function $f_{ext}$ such that :
 
@@ -92,7 +93,7 @@ $$
 
 where $f_{ext}$ is an entity extraction function.
 
-### Building the decision payload
+#### Building the decision payload
 
 Once the information has been extracted, it is used to build a *payload* that will be sent to a BRMS system. The payload is a data structure represented mathematically by a vector $\mathbf{v}$ :
 
@@ -102,7 +103,7 @@ $$
 
 where $\text{ID}$ is a relevant identifier and $\text{Amount}$ is an initial value.
 
-### Business rule evaluation
+#### Business rule evaluation
 The vector $\mathbf{v}$ is sent to a rules engine $R$, represented by a function $f_{BRMS}$ :
 
 
@@ -112,7 +113,7 @@ $$
 
 where decision is the BRMS output after rule evaluation.
 
-### Validation and Response
+#### Validation and Response
 
 Finally, the decision is validated and a response is constructed:
 
@@ -126,15 +127,15 @@ $$
 \text{Error} = f_{err}(\text{Decision})
 $$
 
-### Process summary
+#### Process summary
 
 $$
 (n, p, a, d) \xrightarrow{f_{ext}} \mathbf{v} \xrightarrow{f_{BRMS}} \text{Decision} \xrightarrow{f_{resp}} \text{Response}
 $$
 
-## Integration Proposal
+### Integration Proposal
 
-### API integration
+#### API integration
 
 ```python
 def payload_construction(nom:str,prenom:str,age:int,adresse:str, maisonPrice:int, sinistre:str = "Incendie"):
@@ -153,7 +154,7 @@ def payload_construction(nom:str,prenom:str,age:int,adresse:str, maisonPrice:int
     return payload
 ```
 
-### Extract information from user input
+#### Extract information from user input
 
 ```python
 def brmsCall(user_input:str)->str:
@@ -203,7 +204,7 @@ def brmsCall(user_input:str)->str:
     return sentence, elements3, solve
 ```
 
-### Keeping information in memory
+#### Keeping information in memory
 
 ```python
 if self.assurance_phase:
@@ -220,7 +221,7 @@ else:
 
 
 
-# Demo
+## Demo
 
 This demo is in french :
 
@@ -234,3 +235,5 @@ All the code is available on Github:
 - [BRMS part](https://github.com/sebDtSci/droolsLLM)
 
 - [Chatbot part](https://github.com/sebDtSci/ChatBotBRMS)
+
+---

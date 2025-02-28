@@ -73,5 +73,13 @@ nav:
   #         - Biography: portfolio/biography.md
   - Blog:
       - blog/index.md
+  - Basics:
+      - basics/index.md
+      - Mathematics: 
+        - basics/maths/index.md
+        - basics/maths/base2.md
+      - Python:
+        - basics/python/numpy.md
   - Projets:
       - projets/index.md
+  - Phylosophy: phylosophy.md
