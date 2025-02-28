@@ -82,4 +82,4 @@ nav:
         - basics/python/numpy.md
   - Projets:
       - projets/index.md
-  - Phylosophy: phylosophy.md
+  # - Phylosophy: phylosophy.md
