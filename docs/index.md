@@ -13,6 +13,9 @@
   }
 </style>
 
+<script data-goatcounter="https://sebdtsci.goatcounter.com/count"
+        async src="https://gc.zgo.at/count.js"></script>
+
 # Welcome the ML Engineer's Blog
 
 ## About me:
