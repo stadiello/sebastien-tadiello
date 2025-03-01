@@ -30,12 +30,14 @@ extra:
       link: https://github.com/sebDtSci
     - icon: fontawesome/brands/google-scholar
       link: https://scholar.google.com/citations?view_op=list_works&hl=fr&user=EkjvvMIAAAAJ
+  goatcounter: "https://sebdtsci.goatcounter.com/count"
 
 extra_css:
     - 'extra1.css'
 extra_javascript:
   # - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://gc.zgo.at/count.js
 
 
 markdown_extensions:
