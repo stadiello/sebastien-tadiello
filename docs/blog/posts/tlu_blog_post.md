@@ -12,7 +12,7 @@ draft: false
 
 ## Introduction
 
-Artificial intelligence and neural networks are inspired by biological neurons. One of the simplest artificial neuron models is the **Threshold Logic Unit (TLU)**, which forms the foundation of perceptrons and modern deep learning architectures. In this post, we will explore the biological origins, mathematical formulation, and a practical Python implementation of the **TLU**.
+Artificial intelligence and neural networks are inspired by biological neurons. One of the simplest artificial neuron models is the **Threshold Logic Unit (TLU)**, which forms the foundation of perceptrons and modern deep learning architectures. In this post, we will explore the biological origins, mathematical formulation, and a practical Python implementation of the **TLU**. That's a great starting point to understand artificial neurons and the foundation of deep learning. Don't be afraid by the complexity, it's a great place to start.
 
 ## Biological Inspiration
 

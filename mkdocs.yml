@@ -78,10 +78,11 @@ nav:
   - Basics:
       - basics/index.md
       - Mathematics: 
-        - basics/maths/index.md
-        - basics/maths/base2.md
+        - basics/maths/bases.md
+        - basics/maths/bases2.md
       - Python:
         - basics/python/numpy.md
+        - basics/python/math_python.md
   - Projets:
       - projets/index.md
   # - Phylosophy: phylosophy.md

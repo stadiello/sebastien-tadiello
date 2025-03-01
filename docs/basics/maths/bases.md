@@ -1,6 +1,6 @@
 # Partie 1: Bases Mathématiques Fondamentales
 
-Les mathématiques sont un pilier essentiel de nombreux domaines scientifiques et technologiques, notamment l'intelligence artificielle, la physique, l'économie et l'ingénierie. Ce document présente les bases mathématiques fondamentales.
+Les mathématiques sont un pilier essentiel de nombreux domaines scientifiques et technologiques, notamment l'intelligence artificielle, la physique, l'économie et l'ingénierie. J'ai pu remarquer au cours de mon début de carriere que la maîtrise des mathématiques est essentielle pour comprendre et utiliser efficacement les algorithmes d'IA, cependant trop peu de personnes connaissent ces bases. Ce document présente donc les bases mathématiques fondamentales, rien de trop compliqué. N'hésitez pas à les revoir si vous avez besoin de rafraîchir vos connaissances ou à approfondir certains concepts.
 
 ## 1. Algèbre Linéaire
 
@@ -119,5 +119,5 @@ où $\alpha$ est le taux d'apprentissage.
 
 ## Conclusion
 
-Ces bases mathématiques constituent le socle de nombreuses applications scientifiques et technologiques. Une bonne compréhension de ces concepts permet d'analyser et de résoudre efficacement divers problèmes complexes.
+Ces bases mathématiques constituent le socle de nombreuses applications en data science et en machine learning. Une bonne compréhension de ces concepts permet d'analyser et de résoudre efficacement divers problèmes complexes.
 
