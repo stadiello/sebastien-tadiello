@@ -232,8 +232,8 @@ This demo is in french :
 
 All the code is available on Github:
 
-- [BRMS part](https://github.com/sebDtSci/droolsLLM)
+- [BRMS part](https://github.com/stadiello/droolsLLM)
 
-- [Chatbot part](https://github.com/sebDtSci/ChatBotBRMS)
+- [Chatbot part](https://github.com/stadiello/ChatBotBRMS)
 
 ---

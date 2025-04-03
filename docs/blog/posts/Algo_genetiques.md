@@ -95,4 +95,4 @@ Les algorithmes génétiques sont des outils puissants pour explorer de grands e
 
 N'hésitez pas à essayer d'ajuster les paramètres, comme la taille de la population ou le taux de mutation, pour observer leur impact sur les résultats. Les algorithmes génétiques peuvent être appliqués à une grande variété de problèmes d'optimisation, des jeux jusqu'à la conception industrielle.
 
-[Code sur GitHub](https://github.com/sebDtSci/genetic_optimization)
+[Code sur GitHub](https://github.com/stadiello/genetic_optimization)

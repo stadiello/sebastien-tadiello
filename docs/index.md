@@ -30,7 +30,7 @@
 I'm a Machine Learning Engineer. My work encompasses the design of machine learning algorithms and natural language processing (NLP) in a variety of contexts, from industry to academic research. Specialized in Artificial Intelligence, I also hold a Master's degree in Cognitive Sciences and more specifically in Cognitive Dynamics. 
 </div>
 
-My [CV](https://github.com/sebDtSci/sebDtSci/blob/main/cv2.pdf)
+My [CV](https://github.com/stadiello/sebDtSci/blob/main/cv2.pdf)
 
 &nbsp;
 &nbsp;
