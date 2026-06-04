@@ -5,48 +5,127 @@
     border-radius: 15%;
     object-fit: cover;
   }
+
   .pp {
-    width: 200px;
-    height: 200px;
-    border-radius: 20%;
+    width: 210px;
+    height: 210px;
+    border-radius: 18%;
     object-fit: cover;
+    border: 3px solid #222;
+  }
+
+  .hero {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .hero h1 {
+    margin-bottom: 5px;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+    opacity: 0.85;
+  }
+
+  .section {
+    margin-top: 50px;
+  }
+
+  .card {
+    border-left: 4px solid #444;
+    padding-left: 15px;
+    margin-bottom: 20px;
   }
 </style>
 
 <script data-goatcounter="https://sebdtsci.goatcounter.com/count"
         async src="https://gc.zgo.at/count.js"></script>
 
-# Welcome the ML Engineer's Blog
+<div class="hero">
 
-## About me:
-<div align="center">
-<img class="pp" src="images/pp.jpg" alt="Me" width="150px"/>
+<img class="pp" src="images/pp.jpg" alt="Me" width="180px"/>
+
+# Sébastien Tadiello
+
+<div class="subtitle">
+AI Engineer • Intelligent Systems • Scientific Computing • Field & Embedded AI
 </div>
 
-<p>
+</div>
+
+---
+
+## About
+
+Artificial Intelligence Engineer building robust and useful intelligent systems.
+
+My work focuses on:
+- Embedded & Edge AI
+- Autonomous Systems
+- Scientific & Exploration Technologies
+- LLM and Memory Architectures
+
+I am particularly interested in real-world systems operating in constrained environments.
+
+---
+
+## Current Interests
+
+<div class="card">
+
+### Embedded Intelligence
+
+Lightweight AI systems running on constrained hardware and edge devices.
+
+</div>
+
+<div class="card">
+
+### Autonomous Scientific Systems
+
+Low-cost sensing, data collection and exploration-oriented technologies.
+
+</div>
+
+<div class="card">
+
+### AI Architectures
+
+LLM systems, multimodal AI and long-term memory mechanisms.
+
+</div>
+
+---
+
+## Technical Stack
+
+| Domain | Technologies |
+| :--- | :--- |
+| Languages | [![Python](https://img.shields.io/badge/Python-black?style=flat&logo=python)](https://www.python.org/) [![Rust](https://img.shields.io/badge/Rust-black?style=flat&logo=rust)](https://www.rust-lang.org/) [![C++](https://img.shields.io/badge/C++-black?style=flat&logo=c%2B%2B)]() [![Java](https://img.shields.io/badge/Java-black?style=flat&logo=java)](https://www.java.com/) [![R](https://img.shields.io/badge/R-black?style=flat&logo=r)](https://cran.r-project.org/) |
+| AI & Data | [![TensorFlow](https://img.shields.io/badge/TensorFlow-black?style=flat&logo=tensorflow)](https://www.tensorflow.org/) [![PyTorch](https://img.shields.io/badge/PyTorch-black?style=flat&logo=pytorch)](https://pytorch.org/) [![Scikit-learn](https://img.shields.io/badge/Scikit_learn-black?style=flat&logo=scikit-learn)](https://scikit-learn.org/) [![OpenCV](https://img.shields.io/badge/OpenCV-black?style=flat&logo=opencv)](https://opencv.org/) [![Huggingface](https://img.shields.io/badge/Hugging_Face-black?style=flat&logo=huggingface)](https://huggingface.co/) |
+| Systems | [![Linux](https://img.shields.io/badge/Linux-black?style=flat&logo=linux)](https://www.linux.org/) [![Docker](https://img.shields.io/badge/Docker-black?style=flat&logo=docker)](https://www.docker.com/) [![Git](https://img.shields.io/badge/Git-black?style=flat&logo=git)](https://git-scm.com/) |
+| Embedded & IoT | [![Arduino](https://img.shields.io/badge/Arduino-black?style=flat&logo=arduino)](https://www.arduino.cc/) [![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-black?style=flat&logo=raspberry-pi)](https://www.raspberrypi.org/) |
+| Scientific Writing | [![LaTeX](https://img.shields.io/badge/LaTeX-black?style=flat&logo=latex)](https://www.latex-project.org/) [![Markdown](https://img.shields.io/badge/Markdown-black?style=flat&logo=markdown)]() |
+
+---
+
+## Directions
+
+- Resilient AI systems
+- Scientific exploration technologies
+- Embedded & low-power intelligence
+- Robotics & autonomous systems
+- Open-source AI engineering
+
+---
+
+## Experience
+
+<p align="center">
+I worked with and contributed to projects involving:
 </p>
-
-<div style="text-align: justify">
-I'm a Machine Learning Engineer. My work encompasses the design of machine learning algorithms and natural language processing (NLP) in a variety of contexts, from industry to academic research. Specialized in Artificial Intelligence, I also hold a Master's degree in Cognitive Sciences and more specifically in Cognitive Dynamics. 
-</div>
-
-My [CV](https://github.com/stadiello/sebDtSci/blob/main/CV_tadiello.pdf)
-
-&nbsp;
-&nbsp;
-
-| |Tools| 
-| :--------------- |:---------------:| 
-| Language | [![Python](https://img.shields.io/badge/Python-black?style=flat&logo=python)](https://www.python.org/) [![C++](https://img.shields.io/badge/C++-black?style=flat&logo=c%2B%2B)]() [![Java](https://img.shields.io/badge/Java-black?style=flat&logo=java)](https://www.java.com/) [![R](https://img.shields.io/badge/R-black?style=flat&logo=r)](https://cran.r-project.org/)|
-| Environments | [![Linux](https://img.shields.io/badge/Linux-black?style=flat&logo=linux)](https://www.linux.org/) [![Git](https://img.shields.io/badge/Git-black?style=flat&logo=git)](https://git-scm.com/) [![Docker](https://img.shields.io/badge/Docker-black?style=flat&logo=docker)](https://www.docker.com/) |
-| IoT | [![Arduino](https://img.shields.io/badge/Arduino-black?style=flat&logo=arduino)](https://www.arduino.cc/) [![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-black?style=flat&logo=raspberry-pi)](https://www.raspberrypi.org/) |
-| Machine Learning & AI Libraries |[![Keras](https://img.shields.io/badge/Keras-black?style=flat&logo=keras)](https://keras.io/) [![TensorFlow](https://img.shields.io/badge/TensorFlow-black?style=flat&logo=tensorflow)](https://www.tensorflow.org/) [![OpenCV](https://img.shields.io/badge/OpenCV-black?style=flat&logo=opencv)](https://opencv.org/) [![Huggingface](https://img.shields.io/badge/Hugging_Face-black?style=flat&logo=huggingface)](https://huggingface.co/) [![PyTorch](https://img.shields.io/badge/PyTorch-black?style=flat&logo=pytorch)](https://pytorch.org/) [![Scikit-learn](https://img.shields.io/badge/Scikit_learn-black?style=flat&logo=scikit-learn)](https://scikit-learn.org/)|
-| Scientific Writing & Documentation | [![LaTeX](https://img.shields.io/badge/LaTeX-black?style=flat&logo=latex)](https://www.latex-project.org/) [![Markdown](https://img.shields.io/badge/Markdown-black?style=flat&logo=markdown)]() |
-
-&nbsp;
-&nbsp;
-
-## <p align="center"> I worked for </p>
 
 <table>
   <tr>
@@ -68,24 +147,14 @@ My [CV](https://github.com/stadiello/sebDtSci/blob/main/CV_tadiello.pdf)
   </tr>
 </table>
 
+---
 
+## Links
 
+- GitHub: https://github.com/stadiello
+- Google Scholar: https://scholar.google.com/citations?user=EkjvvMIAAAAJ&hl=fr&oi=ao
+<!-- - CV: https://github.com/stadiello/sebDtSci/blob/main/CV_tadiello.pdf -->
 
+---
 
-
-<!-- For full documentation visit [mkdocs.org](https://www.mkdocs.org). -->
-
-
-<!-- ## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files. -->
+> "Build useful systems. Stay curious. Explore the real world."
