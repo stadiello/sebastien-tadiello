@@ -4,7 +4,7 @@ date: 2026-07-09
 author: "Sebastien Tadiello"
 description: >
     Construire un capteur de température local avec un micro:bit et Raspberry Pi, Bluetooth et dashboard.
-categories: ["Raspberry Pi","Bluetooth","Dashboard","IoT","Python","Micro:bit","Embedded Systems"]
+categories: ["Raspberry Pi","Bluetooth","Dashboard","IoT","Python","C++","Micro:bit","Embedded Systems"]
 languages: ["fr"]
 draft: false
 ---
