@@ -122,7 +122,7 @@ static MicroBitUARTService *sensorUart;
 
 // Fenêtre pendant laquelle le micro:bit est visible en BLE
 #define BLE_WINDOW_MS              20000
-// Répétition de l'envoi pendant la fenêtre BLE
+// rep con BLE ttes les 2s
 #define BLE_SEND_EVERY_MS          2000
 
 static int seq = 0;
@@ -141,6 +141,8 @@ static ManagedString make_payload()
     seq++;
 
     int temp_c = uBit.thermometer.getTemperature();
+    // on eteint la matrice pr ne pas fausser la mesure de luminosité.
+    uBit.display.clear();
     uBit.sleep(50);
     int light = uBit.display.readLightLevel();
 
@@ -297,7 +299,7 @@ from bleak import BleakClient, BleakScanner
 TARGET_NAME = "BBC micro:bit"
 TARGET_ADDRESS = "F8:B4:AB:35:89:E3"
 
-# UUIDs réellement exposés par ton micro:bit
+# UUIDs réellement exposés par le micro:bit
 UART_TX_UUID = "6e400002-b5a3-f393-e0a9-e50e24dcca9e"  # micro:bit -> Raspberry Pi
 UART_RX_UUID = "6e400003-b5a3-f393-e0a9-e50e24dcca9e"  # Raspberry Pi -> micro:bit
 
