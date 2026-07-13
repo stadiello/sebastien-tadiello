@@ -40,8 +40,7 @@
   }
 </style>
 
-<script data-goatcounter="https://sebdtsci.goatcounter.com/count"
-        async src="https://gc.zgo.at/count.js"></script>
+<script data-goatcounter="https://sebdtsci.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 
 <div class="hero">
 
