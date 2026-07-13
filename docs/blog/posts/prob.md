@@ -24,6 +24,8 @@ J'ai pour avancer dans ce projet utilisé les outils suivants :
 
 1. Les docs du micro:bit pour la partie capteur et Bluetooth, le site officiel de Raspberry Pi :
 
+[BBC micro:bit v2](https://microbit.c272.org/)
+
 [BBC micro:bit Bluetooth Profile](https://lancaster-university.github.io/microbit-docs/ble/profile/#reference-documentation)
 
 [Bluetooth Low Energy protocol stack](https://www.nordicsemi.com/Products/Development-software/s113)
