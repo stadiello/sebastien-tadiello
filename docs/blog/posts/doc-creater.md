@@ -1,5 +1,5 @@
 ---
-titel: La documentation technique et Sphinx
+title: La documentation technique et Sphinx
 date: 2024-04-21
 author: Sebastien Tadiello
 description: >
