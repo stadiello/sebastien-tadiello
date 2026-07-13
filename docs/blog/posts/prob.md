@@ -11,7 +11,7 @@ draft: false
 
 # Prob: construire un capteur de température local avec micro:bit, Bluetooth et dashboard
 
-![alt text](image.png)
+![alt text](assets/image_prob.png)
 
 ## Introduction
 
