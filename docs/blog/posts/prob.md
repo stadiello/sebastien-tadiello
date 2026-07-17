@@ -13,6 +13,8 @@ draft: false
 
 ![alt text](assets/image_prob.png)
 
+> Langue: FR | [Read in English](../../en/prob.md)
+
 ## Introduction
 
 Depuis quelque temps je m'intéresse de plus en plus aux systèmes embarqués et aux capteurs intelligents. Il est vrai que quand on y réfléchit il y a une multitude de données qui sont produites dans notre environnement, mais qui ne sont pas captées, stockées ou analysées. Mais dès que l'on commence à vouloir toucher à de l'embarqué, on se rend compte que ce n'est pas si simple. Il y a beaucoup de contraintes à prendre en compte : le matériel, l'énergie, la connectivité, la robustesse, la visualisation, etc. C'est pourquoi dans ce projet, l’objectif était volontairement simple : construire une première solution de captation locale, autonome et peu coûteuse, capable de récupérer des mesures depuis un capteur, de les stocker proprement, puis de les afficher dans un petit dashboard accessible en local. Le but est réellement de découvrir les contraintes d’un projet de capteur, c'est pourquoi cet article sera plus orienté sur les problèmes rencontrés et les solutions mises en place que sur le code ou l'architecture finale, même si absolument tout le code est disponible sur mon repo GitHub.
